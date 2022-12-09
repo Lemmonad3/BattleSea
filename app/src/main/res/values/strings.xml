@@ -33,5 +33,9 @@
     <string name="status_opponent_shot_text">Оппонент совершает выстрел</string>
     <string name="status_opponent_shot_again_text">Оппонент совершает выстрел снова</string>
     <string name="button_input">Начать игру</string>
+    <string name="about_rules">Правила игры</string>
+    <string name="rules">В данной игре необходимо уничтожить корабли противника раньше чем уничтожат ваши.
+        С каждым попаданием по кораблю, игрок получает дополнительный выстрел, чтобы добить крейсер.
+        При этом если корабль противника окажется уничтожен, огонь продолжается до первого промаха. </string>
 
 </resources>

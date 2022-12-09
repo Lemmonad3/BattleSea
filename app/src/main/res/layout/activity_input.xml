@@ -8,16 +8,17 @@
     android:background="@drawable/back">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/goGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="548dp"
         android:background="@color/deepSkyBlue"
         android:fontFamily="@font/minotaur_jugendstil"
         android:text="@string/button_input"
         android:textColor="@color/gold"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -34,4 +35,18 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/goRules"
+        android:layout_width="195dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="552dp"
+        android:background="@color/deepSkyBlue"
+        android:text="@string/about_rules"
+        android:textColor="@color/gold"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/goGame"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

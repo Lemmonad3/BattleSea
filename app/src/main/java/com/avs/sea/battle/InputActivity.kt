@@ -11,10 +11,16 @@ class InputActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_input)
 
-        val button:Button = findViewById(R.id.button)
+        val button:Button = findViewById(R.id.goGame)
         button.setOnClickListener{
 
             val intent: Intent = Intent(this@InputActivity,MainActivity ::class.java)
+            startActivity(intent)
+        }
+        val rules:Button = findViewById(R.id.goRules)
+        rules.setOnClickListener{
+
+            val intent: Intent = Intent(this@InputActivity,RulesActivity ::class.java)
             startActivity(intent)
         }
     }
